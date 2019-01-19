@@ -403,7 +403,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-first {
-    background-image: url(../images/slider-image1.jpeg);
+    background-image: url(../images/slider-image1.jpg);
   }
 
   .slider .item-second {
@@ -574,13 +574,14 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .menu-thumb .menu-info {
+    background: rgba(0,0,0,0.8);
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 0px;
     right: 0px;
     bottom: 0px;
     text-align: left;
-    padding: 25px 30px;
+    padding: 20px 30px;
     transition: 0.5s 0.2s;
   }
 
@@ -600,7 +601,15 @@ http://www.templatemo.com/tm-515-eatery
     margin-top: 10px;
   }
 
-  .menu-thumb .menu-info h3,
+  .menu-thumb .menu-info h3{
+    opacity: 1;
+    display: block;
+    transition: 0.5s 0.2s;
+    color: #ffffff;
+    z-index: 2;
+    position: relative;
+
+  }
   .menu-thumb .menu-info p,
   .menu-thumb .menu-info span {
     transform: translateY(100%);
@@ -632,7 +641,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .menu-thumb:hover .menu-info {
-    background: rgba(0,0,0,0.8);
+    top: 60%;
   }
 
 
