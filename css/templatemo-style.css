@@ -229,7 +229,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .custom-navbar .navbar-nav.navbar-nav-first {
-    margin-left: 8em;
+    margin-left: 2em;
   }
 
   .custom-navbar .navbar-nav.navbar-right li a {
@@ -263,8 +263,8 @@ http://www.templatemo.com/tm-515-eatery
     font-size: 12px;
     font-weight: bold;
     color: #ffffff;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
     text-transform: uppercase;
   }
 
@@ -295,6 +295,10 @@ http://www.templatemo.com/tm-515-eatery
   .custom-navbar .navbar-toggle .icon-bar {
     background: #252525;
     border-color: transparent;
+  }
+
+  .custom-navbar .navbar-header{
+    margin-left: -10px;
   }
 
   @media(min-width:768px) {
